@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">job14</string>
+    <string name="kuliner">KULINER</string>
+    <string name="busana">BUSANA</string>
+    <string name="pplg">PPLG</string>
+    <string name="to">TO</string>
+    <string name="tpfl">TPFL</string>
+    <string name="exit">EXIT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

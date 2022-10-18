@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold|italic"
+    android:text="JURUSAN SMKN 1 SAYUNG"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_busana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/busana"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <Button
+                android:id="@+id/btn_kuliner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/kuliner" />
+
+            <Button
+                android:id="@+id/btn_pplg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/pplg" />
+
+            <Button
+                android:id="@+id/btn_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/to" />
+
+            <Button
+                android:id="@+id/btn_tpfl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/tpfl" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/exit" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+
+</LinearLayout>
